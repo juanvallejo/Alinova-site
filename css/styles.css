@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+html,body {
+width:100%; height:100%;
+}
+body {
+background:rgb(0,0,0) url(i/bg.jpg) no-repeat 0 0 fixed; background-size:cover; font:400 16px 'Gabriela',arial,sans-serif; color:rgb(85,85,85); float:left;
+}
+
+#fx-shadow-overlay {
+width:100%; height:100%; position:fixed; top:0; left:0; min-height:100px; box-shadow:inset 1px 10px 100px rgba(0,0,0,0.47);
+}
+#wrapper {
+width:600px; position:relative; margin:0 auto;
+}
+	#brand {
+	width:100%; margin:20% 0 0 0; color:rgb(246,255,245); text-shadow:0 0 0 rgb(71,120,0); opacity:0.89; text-align:center;
+	}
+		#brand .logo {
+		font-size:3.5em; width:100%; font-size:3.5em; color:rgb(59,81,66);
+		}
+		#brand .tagline {
+		margin:20% 0 0 0; font-size:1.5em; /*color:rgb(59,81,66);*/
+		}
