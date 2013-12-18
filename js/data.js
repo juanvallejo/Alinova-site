@@ -1,9 +1,13 @@
 (function(window) {
 var Alinova = {
 	doc:null,
+	properties:{
+		minDocumentHeight:400
+	},
 	addResizeListener:function(div,properties) {
+		var self = this;
 		window.addEventListener('resize',function() {
-			div.style[properties] = window.innerHeight+"px";
+			div.style[properties] = window.innerHeight >= self.properties.minDocumentHeight ? window.innerHeight+"px" : self.properties.minDocumentHeight+"px";
 		});
 	},
 	init:function(doc) {
