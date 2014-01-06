@@ -46,6 +46,12 @@ width:100%; float:left; min-height:100px; background:rgba(208,214,219,0.78); bor
 		.panel-content-section {
 		width:100%; margin-bottom:60px; padding:10px;
 		}
+			.panel-content-section a {
+			text-decoration:none; color:inherit; font-weight:bold; font-size:0.96em;
+			}
+				.panel-content-section a:hover {
+				text-decoration:underline;
+				}
 			.panel-content-section p {
 			text-align:justify; font:300 1em 'Open Sans',arial,sans-serif; color:rgb(92,97,95); width:100%;
 			}
